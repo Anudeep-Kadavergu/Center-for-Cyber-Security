@@ -1,0 +1,4 @@
+IndexIgnore *
+Options +MultiViews
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTPS_HOST}%{REQUEST_URL}
